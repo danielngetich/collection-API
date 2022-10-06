@@ -1,17 +1,25 @@
 {
-  "name": "dantes-women-app",
+  "name": "doctors-api",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "json database for doctors",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "keywords": [
+    "json-server,heroku, node, REST API"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielngetich/doctors_API.git"
+  },
+  "author": "Ngetich Daniel",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielngetich/doctors_API.git/issues"
+  },
   "dependencies": {
-    "json": "^11.0.0",
-    "json-server": "^0.17.0",
-    "server": "^1.0.37"
+    "json-server": "^0.17.0"
   }
 }
